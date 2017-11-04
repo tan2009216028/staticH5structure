@@ -1,0 +1,9 @@
+{{extend '../../mResource/template/base.art'}}
+
+{{block 'title'}}测试用例{{/block}}
+
+{{block 'content'}}
+<div class="d-base-layout" id="J_baseLayout">
+    <p>这是一个完整的静态资源构建</p>
+</div>
+{{/block}}

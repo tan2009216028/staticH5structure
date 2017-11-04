@@ -1,0 +1,11 @@
+{{extend '../../mResource/template/base.art'}}
+
+{{block 'title'}}京东换券测试中心{{/block}}
+{{block 'js'}}
+<script type="text/javascript" src="/src/mResource/zepto/data.js"></script>
+{{/block}}
+{{block 'content'}}
+<div class="d-base-layout" id="J_baseLayout">
+    <p>这是一个京豆换券完整的静态资源构建</p>
+</div>
+{{/block}}

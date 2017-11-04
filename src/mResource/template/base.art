@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+    <title>{{block 'title'}}m活动静态构建{{/block}}</title>
+    <link type="text/css" rel="stylesheet" href="/src/mResource/css/base.css">
+    {{block 'css'}}{{/block}}
+    <script type="text/javascript" src="/src/mResource/zepto/zepto.js"></script>
+    <script type="text/javascript" src="/src/mResource/zepto/event.js"></script>
+    <script type="text/javascript" src="/src/mResource/zepto/ajax.js"></script>
+    <script type="text/javascript" src="/src/mResource/zepto/form.js"></script>
+    {{block 'js'}}{{/block}}
+</head>
+<body>
+{{block 'content'}}
+<h1>欢迎来到m活动静态构建中心</h1>
+{{/block}}
+</body>
+</html>
